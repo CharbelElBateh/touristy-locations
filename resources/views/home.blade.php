@@ -91,7 +91,7 @@
 @endsection
 
 @section('slider2')
-    @for(;$index <= 8; $index++)
+    @for(;$index < $locations->count(); $index++)
     <div class="item clearfix">
         <figure class="img-box">
             <img src="{{ asset('storage/' . $locations[$index]->image) }}" alt="">
