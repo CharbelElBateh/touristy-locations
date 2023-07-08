@@ -74,7 +74,7 @@
                             <nav class="menuzord" id="main_menu">
                             <ul class="menuzord-menu">
                                     <li>
-                                        <a href="{{ url('/home') }}">Home</a>
+                                        <a href="{{ url('/') }}">Home</a>
                                     </li>
 
                                     <li>

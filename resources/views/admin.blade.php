@@ -18,7 +18,7 @@
                     <br><br>
                     <a href="{{ route('users.index') }}" class="btn btn-primary">Users</a>
                     <a href="{{ route('locations.index') }}" class="btn btn-primary">Locations</a>
-                    <a href="{{ route('welcome') }}" class="btn btn-primary">Return</a>
+                    <a href="{{ route('home') }}" class="btn btn-primary">Return</a>
                 </div>
             </div>
         </div>

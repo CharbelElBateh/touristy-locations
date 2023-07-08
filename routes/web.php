@@ -20,11 +20,7 @@ use App\Http\Controllers\HomeController;
 
 Auth::routes();
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('welcome');
-
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::prefix('/admin')->group(function(){
     Route::get('/', [AdminController::class, 'index'])->name('admin');
