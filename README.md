@@ -1,4 +1,4 @@
-![CatCuteCatGIF](https://github.com/CharbelElBateh/touristy-locations/assets/99130418/0bd4e65d-e370-4787-986a-87eed6f0ab19)<h1 align="middle">Touristy Locations</h1>
+<h1 align="middle">Touristy Locations</h1>
 
 This is a full stack webapp that allows user to discover Touristy locations in Lebanon.
 By default the application has 10 locations and more could be added through logging in. Signing up (which seems counterproductive) is also set up for an easier trial.
